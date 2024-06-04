@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B21AD11F3A511B778B149B1 /* Pods_City_DistanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4522FE672A3748D71A2E07C6 /* Pods_City_DistanceTests.framework */; };
+		B925155E28C618ACB93B22AD /* Pods_City_Distance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D73CA1F2A53CDCFCA8A794 /* Pods_City_Distance.framework */; };
+		D94A2DC62C0E4BD900AB5FB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94A2DC52C0E4BD900AB5FB6 /* AppDelegate.swift */; };
+		D94A2DC82C0E4BD900AB5FB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94A2DC72C0E4BD900AB5FB6 /* SceneDelegate.swift */; };
+		D94A2DCA2C0E4BD900AB5FB6 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94A2DC92C0E4BD900AB5FB6 /* HomeVC.swift */; };
+		D94A2DD02C0E4BD900AB5FB6 /* City_Distance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D94A2DCE2C0E4BD900AB5FB6 /* City_Distance.xcdatamodeld */; };
+		D94A2DD22C0E4BDB00AB5FB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D94A2DD12C0E4BDB00AB5FB6 /* Assets.xcassets */; };
+		D94A2DD52C0E4BDB00AB5FB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D94A2DD32C0E4BDB00AB5FB6 /* LaunchScreen.storyboard */; };
+		D94A2DE02C0E4BDB00AB5FB6 /* City_DistanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94A2DDF2C0E4BDB00AB5FB6 /* City_DistanceTests.swift */; };
+		D94A2DEA2C0E4BDB00AB5FB6 /* City_DistanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94A2DE92C0E4BDB00AB5FB6 /* City_DistanceUITests.swift */; };
+		D94A2DEC2C0E4BDB00AB5FB6 /* City_DistanceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94A2DEB2C0E4BDB00AB5FB6 /* City_DistanceUITestsLaunchTests.swift */; };
+		D94A2DF92C0E4D5700AB5FB6 /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94A2DF82C0E4D5700AB5FB6 /* CityModel.swift */; };
+		D94A2DFB2C0E4DFC00AB5FB6 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94A2DFA2C0E4DFC00AB5FB6 /* Networking.swift */; };
+		D94A2DFD2C0E4E1C00AB5FB6 /* CityPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94A2DFC2C0E4E1C00AB5FB6 /* CityPresenter.swift */; };
+		D94A2E012C0E527F00AB5FB6 /* CityTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94A2E002C0E527F00AB5FB6 /* CityTableCell.swift */; };
+		D94A2E032C0E574B00AB5FB6 /* DistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94A2E022C0E574B00AB5FB6 /* DistanceManager.swift */; };
+		D94A2E052C0E695400AB5FB6 /* CashImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94A2E042C0E695400AB5FB6 /* CashImage.swift */; };
+		EF99BC5933B2A63ABB6FEBA5 /* Pods_City_Distance_City_DistanceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61619B1B21863FC10F6D7A10 /* Pods_City_Distance_City_DistanceUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D94A2DDC2C0E4BDB00AB5FB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D94A2DBA2C0E4BD900AB5FB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D94A2DC12C0E4BD900AB5FB6;
+			remoteInfo = "City-Distance";
+		};
+		D94A2DE62C0E4BDB00AB5FB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D94A2DBA2C0E4BD900AB5FB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D94A2DC12C0E4BD900AB5FB6;
+			remoteInfo = "City-Distance";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D1506812DDFBF5B584ED046 /* Pods-City-Distance-City-DistanceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-City-Distance-City-DistanceUITests.debug.xcconfig"; path = "Target Support Files/Pods-City-Distance-City-DistanceUITests/Pods-City-Distance-City-DistanceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4522FE672A3748D71A2E07C6 /* Pods_City_DistanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_City_DistanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADD3037BEA7E63856E62104 /* Pods-City-DistanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-City-DistanceTests.release.xcconfig"; path = "Target Support Files/Pods-City-DistanceTests/Pods-City-DistanceTests.release.xcconfig"; sourceTree = "<group>"; };
+		4DD1EAA830FD86553235D6FB /* Pods-City-Distance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-City-Distance.release.xcconfig"; path = "Target Support Files/Pods-City-Distance/Pods-City-Distance.release.xcconfig"; sourceTree = "<group>"; };
+		52C2BEDF892ECADE6A136215 /* Pods-City-Distance-City-DistanceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-City-Distance-City-DistanceUITests.release.xcconfig"; path = "Target Support Files/Pods-City-Distance-City-DistanceUITests/Pods-City-Distance-City-DistanceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		61619B1B21863FC10F6D7A10 /* Pods_City_Distance_City_DistanceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_City_Distance_City_DistanceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B62664C3D9DE3C484DBE6ED /* Pods-City-Distance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-City-Distance.debug.xcconfig"; path = "Target Support Files/Pods-City-Distance/Pods-City-Distance.debug.xcconfig"; sourceTree = "<group>"; };
+		A9D73CA1F2A53CDCFCA8A794 /* Pods_City_Distance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_City_Distance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D94A2DC22C0E4BD900AB5FB6 /* City-Distance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "City-Distance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D94A2DC52C0E4BD900AB5FB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D94A2DC72C0E4BD900AB5FB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D94A2DC92C0E4BD900AB5FB6 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		D94A2DCF2C0E4BD900AB5FB6 /* City_Distance.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = City_Distance.xcdatamodel; sourceTree = "<group>"; };
+		D94A2DD12C0E4BDB00AB5FB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D94A2DD42C0E4BDB00AB5FB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D94A2DD62C0E4BDB00AB5FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D94A2DDB2C0E4BDB00AB5FB6 /* City-DistanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "City-DistanceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D94A2DDF2C0E4BDB00AB5FB6 /* City_DistanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City_DistanceTests.swift; sourceTree = "<group>"; };
+		D94A2DE52C0E4BDB00AB5FB6 /* City-DistanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "City-DistanceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D94A2DE92C0E4BDB00AB5FB6 /* City_DistanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City_DistanceUITests.swift; sourceTree = "<group>"; };
+		D94A2DEB2C0E4BDB00AB5FB6 /* City_DistanceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City_DistanceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D94A2DF82C0E4D5700AB5FB6 /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
+		D94A2DFA2C0E4DFC00AB5FB6 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		D94A2DFC2C0E4E1C00AB5FB6 /* CityPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityPresenter.swift; sourceTree = "<group>"; };
+		D94A2E002C0E527F00AB5FB6 /* CityTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableCell.swift; sourceTree = "<group>"; };
+		D94A2E022C0E574B00AB5FB6 /* DistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceManager.swift; sourceTree = "<group>"; };
+		D94A2E042C0E695400AB5FB6 /* CashImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashImage.swift; sourceTree = "<group>"; };
+		DE4FDE5EF90B9D633A9A2BA1 /* Pods-City-DistanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-City-DistanceTests.debug.xcconfig"; path = "Target Support Files/Pods-City-DistanceTests/Pods-City-DistanceTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D94A2DBF2C0E4BD900AB5FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B925155E28C618ACB93B22AD /* Pods_City_Distance.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D94A2DD82C0E4BDB00AB5FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B21AD11F3A511B778B149B1 /* Pods_City_DistanceTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D94A2DE22C0E4BDB00AB5FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF99BC5933B2A63ABB6FEBA5 /* Pods_City_Distance_City_DistanceUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78D4C3932D7BD02B691CACFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B62664C3D9DE3C484DBE6ED /* Pods-City-Distance.debug.xcconfig */,
+				4DD1EAA830FD86553235D6FB /* Pods-City-Distance.release.xcconfig */,
+				1D1506812DDFBF5B584ED046 /* Pods-City-Distance-City-DistanceUITests.debug.xcconfig */,
+				52C2BEDF892ECADE6A136215 /* Pods-City-Distance-City-DistanceUITests.release.xcconfig */,
+				DE4FDE5EF90B9D633A9A2BA1 /* Pods-City-DistanceTests.debug.xcconfig */,
+				4ADD3037BEA7E63856E62104 /* Pods-City-DistanceTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D94A2DB92C0E4BD900AB5FB6 = {
+			isa = PBXGroup;
+			children = (
+				D94A2DC42C0E4BD900AB5FB6 /* City-Distance */,
+				D94A2DDE2C0E4BDB00AB5FB6 /* City-DistanceTests */,
+				D94A2DE82C0E4BDB00AB5FB6 /* City-DistanceUITests */,
+				D94A2DC32C0E4BD900AB5FB6 /* Products */,
+				78D4C3932D7BD02B691CACFA /* Pods */,
+				EF271B3EC5C29D15BB6D76A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D94A2DC32C0E4BD900AB5FB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D94A2DC22C0E4BD900AB5FB6 /* City-Distance.app */,
+				D94A2DDB2C0E4BDB00AB5FB6 /* City-DistanceTests.xctest */,
+				D94A2DE52C0E4BDB00AB5FB6 /* City-DistanceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D94A2DC42C0E4BD900AB5FB6 /* City-Distance */ = {
+			isa = PBXGroup;
+			children = (
+				D94A2DC52C0E4BD900AB5FB6 /* AppDelegate.swift */,
+				D94A2DC72C0E4BD900AB5FB6 /* SceneDelegate.swift */,
+				D9DBB3C32C0E7E17002A68AB /* Model */,
+				D9DBB3C12C0E7E05002A68AB /* Presenter */,
+				D9DBB3C22C0E7E0F002A68AB /* Networking */,
+				D9DBB3C02C0E7DFC002A68AB /* Scenes */,
+				D9DBB3C42C0E7E2F002A68AB /* Helpers */,
+				D94A2DD12C0E4BDB00AB5FB6 /* Assets.xcassets */,
+				D94A2DD32C0E4BDB00AB5FB6 /* LaunchScreen.storyboard */,
+				D94A2DD62C0E4BDB00AB5FB6 /* Info.plist */,
+				D94A2DCE2C0E4BD900AB5FB6 /* City_Distance.xcdatamodeld */,
+			);
+			path = "City-Distance";
+			sourceTree = "<group>";
+		};
+		D94A2DDE2C0E4BDB00AB5FB6 /* City-DistanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				D94A2DDF2C0E4BDB00AB5FB6 /* City_DistanceTests.swift */,
+			);
+			path = "City-DistanceTests";
+			sourceTree = "<group>";
+		};
+		D94A2DE82C0E4BDB00AB5FB6 /* City-DistanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D94A2DE92C0E4BDB00AB5FB6 /* City_DistanceUITests.swift */,
+				D94A2DEB2C0E4BDB00AB5FB6 /* City_DistanceUITestsLaunchTests.swift */,
+			);
+			path = "City-DistanceUITests";
+			sourceTree = "<group>";
+		};
+		D9DBB3C02C0E7DFC002A68AB /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				D94A2DC92C0E4BD900AB5FB6 /* HomeVC.swift */,
+				D94A2E002C0E527F00AB5FB6 /* CityTableCell.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		D9DBB3C12C0E7E05002A68AB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D94A2DFC2C0E4E1C00AB5FB6 /* CityPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D9DBB3C22C0E7E0F002A68AB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D94A2DFA2C0E4DFC00AB5FB6 /* Networking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D9DBB3C32C0E7E17002A68AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D94A2DF82C0E4D5700AB5FB6 /* CityModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D9DBB3C42C0E7E2F002A68AB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D94A2E022C0E574B00AB5FB6 /* DistanceManager.swift */,
+				D94A2E042C0E695400AB5FB6 /* CashImage.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EF271B3EC5C29D15BB6D76A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9D73CA1F2A53CDCFCA8A794 /* Pods_City_Distance.framework */,
+				61619B1B21863FC10F6D7A10 /* Pods_City_Distance_City_DistanceUITests.framework */,
+				4522FE672A3748D71A2E07C6 /* Pods_City_DistanceTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D94A2DC12C0E4BD900AB5FB6 /* City-Distance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D94A2DEF2C0E4BDB00AB5FB6 /* Build configuration list for PBXNativeTarget "City-Distance" */;
+			buildPhases = (
+				5CC4F0058E5E7C4E54334B6E /* [CP] Check Pods Manifest.lock */,
+				D94A2DBE2C0E4BD900AB5FB6 /* Sources */,
+				D94A2DBF2C0E4BD900AB5FB6 /* Frameworks */,
+				D94A2DC02C0E4BD900AB5FB6 /* Resources */,
+				1659D9CB6B00EE125F71D43F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "City-Distance";
+			productName = "City-Distance";
+			productReference = D94A2DC22C0E4BD900AB5FB6 /* City-Distance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D94A2DDA2C0E4BDB00AB5FB6 /* City-DistanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D94A2DF22C0E4BDB00AB5FB6 /* Build configuration list for PBXNativeTarget "City-DistanceTests" */;
+			buildPhases = (
+				D7AD9EA7CC814CEFAB8B3C93 /* [CP] Check Pods Manifest.lock */,
+				D94A2DD72C0E4BDB00AB5FB6 /* Sources */,
+				D94A2DD82C0E4BDB00AB5FB6 /* Frameworks */,
+				D94A2DD92C0E4BDB00AB5FB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D94A2DDD2C0E4BDB00AB5FB6 /* PBXTargetDependency */,
+			);
+			name = "City-DistanceTests";
+			productName = "City-DistanceTests";
+			productReference = D94A2DDB2C0E4BDB00AB5FB6 /* City-DistanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D94A2DE42C0E4BDB00AB5FB6 /* City-DistanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D94A2DF52C0E4BDB00AB5FB6 /* Build configuration list for PBXNativeTarget "City-DistanceUITests" */;
+			buildPhases = (
+				012D510730DB83BC4D146270 /* [CP] Check Pods Manifest.lock */,
+				D94A2DE12C0E4BDB00AB5FB6 /* Sources */,
+				D94A2DE22C0E4BDB00AB5FB6 /* Frameworks */,
+				D94A2DE32C0E4BDB00AB5FB6 /* Resources */,
+				CDFF5CB40D28C48F5930F769 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D94A2DE72C0E4BDB00AB5FB6 /* PBXTargetDependency */,
+			);
+			name = "City-DistanceUITests";
+			productName = "City-DistanceUITests";
+			productReference = D94A2DE52C0E4BDB00AB5FB6 /* City-DistanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D94A2DBA2C0E4BD900AB5FB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D94A2DC12C0E4BD900AB5FB6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D94A2DDA2C0E4BDB00AB5FB6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D94A2DC12C0E4BD900AB5FB6;
+					};
+					D94A2DE42C0E4BDB00AB5FB6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D94A2DC12C0E4BD900AB5FB6;
+					};
+				};
+			};
+			buildConfigurationList = D94A2DBD2C0E4BD900AB5FB6 /* Build configuration list for PBXProject "City-Distance" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D94A2DB92C0E4BD900AB5FB6;
+			productRefGroup = D94A2DC32C0E4BD900AB5FB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D94A2DC12C0E4BD900AB5FB6 /* City-Distance */,
+				D94A2DDA2C0E4BDB00AB5FB6 /* City-DistanceTests */,
+				D94A2DE42C0E4BDB00AB5FB6 /* City-DistanceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D94A2DC02C0E4BD900AB5FB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94A2DD52C0E4BDB00AB5FB6 /* LaunchScreen.storyboard in Resources */,
+				D94A2DD22C0E4BDB00AB5FB6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D94A2DD92C0E4BDB00AB5FB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D94A2DE32C0E4BDB00AB5FB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		012D510730DB83BC4D146270 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-City-Distance-City-DistanceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1659D9CB6B00EE125F71D43F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-City-Distance/Pods-City-Distance-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-City-Distance/Pods-City-Distance-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-City-Distance/Pods-City-Distance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CC4F0058E5E7C4E54334B6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-City-Distance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDFF5CB40D28C48F5930F769 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-City-Distance-City-DistanceUITests/Pods-City-Distance-City-DistanceUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-City-Distance-City-DistanceUITests/Pods-City-Distance-City-DistanceUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-City-Distance-City-DistanceUITests/Pods-City-Distance-City-DistanceUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7AD9EA7CC814CEFAB8B3C93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-City-DistanceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D94A2DBE2C0E4BD900AB5FB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94A2DF92C0E4D5700AB5FB6 /* CityModel.swift in Sources */,
+				D94A2DCA2C0E4BD900AB5FB6 /* HomeVC.swift in Sources */,
+				D94A2E052C0E695400AB5FB6 /* CashImage.swift in Sources */,
+				D94A2DD02C0E4BD900AB5FB6 /* City_Distance.xcdatamodeld in Sources */,
+				D94A2E032C0E574B00AB5FB6 /* DistanceManager.swift in Sources */,
+				D94A2DFD2C0E4E1C00AB5FB6 /* CityPresenter.swift in Sources */,
+				D94A2DFB2C0E4DFC00AB5FB6 /* Networking.swift in Sources */,
+				D94A2DC62C0E4BD900AB5FB6 /* AppDelegate.swift in Sources */,
+				D94A2DC82C0E4BD900AB5FB6 /* SceneDelegate.swift in Sources */,
+				D94A2E012C0E527F00AB5FB6 /* CityTableCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D94A2DD72C0E4BDB00AB5FB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94A2DE02C0E4BDB00AB5FB6 /* City_DistanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D94A2DE12C0E4BDB00AB5FB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D94A2DEC2C0E4BDB00AB5FB6 /* City_DistanceUITestsLaunchTests.swift in Sources */,
+				D94A2DEA2C0E4BDB00AB5FB6 /* City_DistanceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D94A2DDD2C0E4BDB00AB5FB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D94A2DC12C0E4BD900AB5FB6 /* City-Distance */;
+			targetProxy = D94A2DDC2C0E4BDB00AB5FB6 /* PBXContainerItemProxy */;
+		};
+		D94A2DE72C0E4BDB00AB5FB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D94A2DC12C0E4BD900AB5FB6 /* City-Distance */;
+			targetProxy = D94A2DE62C0E4BDB00AB5FB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D94A2DD32C0E4BDB00AB5FB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D94A2DD42C0E4BDB00AB5FB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D94A2DED2C0E4BDB00AB5FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D94A2DEE2C0E4BDB00AB5FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D94A2DF02C0E4BDB00AB5FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B62664C3D9DE3C484DBE6ED /* Pods-City-Distance.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PE88YGMV2H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "City-Distance/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrushdi.City-Distance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D94A2DF12C0E4BDB00AB5FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DD1EAA830FD86553235D6FB /* Pods-City-Distance.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PE88YGMV2H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "City-Distance/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrushdi.City-Distance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D94A2DF32C0E4BDB00AB5FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE4FDE5EF90B9D633A9A2BA1 /* Pods-City-DistanceTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PE88YGMV2H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrushdi.City-DistanceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/City-Distance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/City-Distance";
+			};
+			name = Debug;
+		};
+		D94A2DF42C0E4BDB00AB5FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ADD3037BEA7E63856E62104 /* Pods-City-DistanceTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PE88YGMV2H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrushdi.City-DistanceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/City-Distance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/City-Distance";
+			};
+			name = Release;
+		};
+		D94A2DF62C0E4BDB00AB5FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D1506812DDFBF5B584ED046 /* Pods-City-Distance-City-DistanceUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PE88YGMV2H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrushdi.City-DistanceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "City-Distance";
+			};
+			name = Debug;
+		};
+		D94A2DF72C0E4BDB00AB5FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C2BEDF892ECADE6A136215 /* Pods-City-Distance-City-DistanceUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PE88YGMV2H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrushdi.City-DistanceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "City-Distance";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D94A2DBD2C0E4BD900AB5FB6 /* Build configuration list for PBXProject "City-Distance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D94A2DED2C0E4BDB00AB5FB6 /* Debug */,
+				D94A2DEE2C0E4BDB00AB5FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D94A2DEF2C0E4BDB00AB5FB6 /* Build configuration list for PBXNativeTarget "City-Distance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D94A2DF02C0E4BDB00AB5FB6 /* Debug */,
+				D94A2DF12C0E4BDB00AB5FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D94A2DF22C0E4BDB00AB5FB6 /* Build configuration list for PBXNativeTarget "City-DistanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D94A2DF32C0E4BDB00AB5FB6 /* Debug */,
+				D94A2DF42C0E4BDB00AB5FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D94A2DF52C0E4BDB00AB5FB6 /* Build configuration list for PBXNativeTarget "City-DistanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D94A2DF62C0E4BDB00AB5FB6 /* Debug */,
+				D94A2DF72C0E4BDB00AB5FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D94A2DCE2C0E4BD900AB5FB6 /* City_Distance.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D94A2DCF2C0E4BD900AB5FB6 /* City_Distance.xcdatamodel */,
+			);
+			currentVersion = D94A2DCF2C0E4BD900AB5FB6 /* City_Distance.xcdatamodel */;
+			path = City_Distance.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D94A2DBA2C0E4BD900AB5FB6 /* Project object */;
+}
